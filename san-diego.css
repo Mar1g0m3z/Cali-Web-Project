@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: Arial, sans-serif;
-	background-image: url('./images/background-capital.jpg');
+	background-image: url('./images/background-sandiego.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -73,9 +73,7 @@ nav ul li:hover {
 .carousel-item p {
 	width: 80%;
 	padding: 20px;
-	font-size: 20px;
-	text-align: left;
-	/* font-size: 1.2rem; */
+	font-size: 1.2rem;
 }
 
 .carousel-images {

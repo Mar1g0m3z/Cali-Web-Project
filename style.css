@@ -42,7 +42,6 @@ nav ul li a:visited {
 }
 nav ul li:hover {
 	transform: scale(1.2);
-	/* font-size: 1.1em; */
 	font-weight: bold;
 }
 .aside {
@@ -95,7 +94,8 @@ nav ul li:hover {
 .carousel img {
 	width: 60%;
 
-	height: 160%;
+	height: 200%;
+	object-fit: cover;
 }
 .prev-btn,
 .next-btn {
