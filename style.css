@@ -1,11 +1,12 @@
 body {
 	margin: 0;
-	padding: 0;
 	font-family: Arial, sans-serif;
 	background-image: url('./images/background-home.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	width: auto;
+	height: 100vh;
 }
 
 header {
@@ -30,8 +31,20 @@ nav ul {
 nav ul li {
 	margin-left: 20px;
 	cursor: pointer;
+	transition: transform 0.3s ease, font-size 0.3s ease;
+}
+nav ul li a {
+	text-decoration: none;
 }
 
+nav ul li a:visited {
+	color: #ffffff;
+}
+nav ul li:hover {
+	transform: scale(1.2);
+	/* font-size: 1.1em; */
+	font-weight: bold;
+}
 .aside {
 	position: absolute;
 	top: 10px;
@@ -49,7 +62,7 @@ nav ul li {
 	position: relative;
 	width: 100%;
 	max-width: 800px;
-	height: 400px;
+	height: 500px;
 	margin: auto;
 	margin-top: 100px;
 	overflow: hidden;
@@ -82,7 +95,7 @@ nav ul li {
 .carousel img {
 	width: 60%;
 
-	height: 150%;
+	height: 160%;
 }
 .prev-btn,
 .next-btn {
