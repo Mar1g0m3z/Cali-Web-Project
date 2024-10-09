@@ -53,6 +53,24 @@ nav ul li:hover {
 	padding: 15px;
 	background-color: #ddd;
 	border-radius: 5px;
+	 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+ .aside h3 {
+        color: #333;
+        margin-bottom: 10px;
+		text-align: center;
+    }
+
+.aside a {
+        color: #0073e6;
+        text-decoration: none;
+    }
+.aside ol li {
+	transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.aside ol li:hover{
+		transform: scale(1.2);
 }
 
 .carousel {

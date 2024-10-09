@@ -6,7 +6,7 @@ body {
 	background-position: center;
 	background-size: cover;
 	width: auto;
-	height: 100vh;
+	height: 150vh;
 }
 
 header {
@@ -52,6 +52,24 @@ nav ul li:hover {
 	padding: 15px;
 	background-color: #ddd;
 	border-radius: 5px;
+	 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+ .aside h3 {
+        color: #333;
+        margin-bottom: 10px;
+		text-align: center;
+    }
+
+.aside a {
+        color: #0073e6;
+        text-decoration: none;
+    }
+.aside ol li {
+	transition: transform 0.3s ease, font-size 0.3s ease;
+}
+
+.aside ol li:hover{
+		transform: scale(1.2);
 }
 
 .carousel {
@@ -121,4 +139,41 @@ nav ul li:hover {
 .prev-btn i,
 .next-btn i {
 	font-size: 24px;
+}
+
+#attractions{
+	width: 80%;
+	margin: auto;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+
+ h2{
+	color:white;
+	text-align: center;
+}
+.table-header, .table-data {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table-header {
+    background-color: #b82e92;
+    color: white;
+}
+
+.table-data:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-data:nth-child(odd){
+	  background-color: #f2f2f2;
+}
+.table-data:hover {
+    background-color: #ddd;
 }
