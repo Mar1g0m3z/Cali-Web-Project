@@ -1,4 +1,0 @@
-As shown in the images provided in this file, there was only one layout change made. 
-The change was done to the homepage in which I added a table which showed famous attractions in California.
-This addition was done because it was required in the project.
-Aside from that, no other changes were done to the Home Page or the Interior Page Layouts.
