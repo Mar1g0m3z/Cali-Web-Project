@@ -8,11 +8,8 @@ Welcome to the **California State Government Information Portal** project! This 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Page Structure](#page-structure)
-- [Customization](#customization)
-- [Project Roadmap](#project-roadmap)
-- [Contributions](#contributions)
-- [License](#license)
+
+
 
 ## Project Overview
 
@@ -22,9 +19,8 @@ The California State Government Information Portal was created with a focus on u
 
 - **Multi-page Navigation**: Separate pages for Sacramento, San Diego, and San Francisco, each with unique images, text, and links.
 - **Interactive Carousel**: Each page includes a city-specific image and information carousel for users to learn more about the city's highlights.
-- **Custom Aside Component**: Positioned at the top right of each page, the aside component contains helpful links for each city.
-- **Search & Pagination**: Search bar with easing animations and pagination positioned just below the images.
-- **Smooth Animations**: Easing animations for hero text and interactive elements to enhance user experience.
+- **Custom Aside Component**: Positioned at the top right of each page, the aside component contains helpful links.
+- **Smooth Animations**: Easing animations for interactive elements to enhance user experience.
 
 ## Technologies Used
 
